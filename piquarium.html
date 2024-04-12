@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>PiQuarium</title>
+<script src="data.js"></script>
+<script src="piquarium.js"></script>
+<link rel="stylesheet" href="piquarium.css">
+</head>
+<body onload="pageLoad()">
+<div id="header"><img id="feedme" src="images/food-fed.png" alt="Fish are fed" onclick="feed()" /> &nbsp; <a href="http://127.0.0.1"><img id="pipower" src="images/power.png" alt="Pi-power control"/></a></div>
+<div id="mainbody">
+<img id="fishimage" src="images/piquarium.jpg" width="300" height="300" alt="PiQuarium image" style="float:right" />
+<h1 id="title">PiQuarium</h1>
+<h2 id="subtitle">Welcome to PiQuarium</h2>
+
+<div id="maintext">
+<!-- to reset click on the ... -->
+<p>PiQuarium is starting. Please wait <span onclick="deleteFeed()">...</span></p>
+
+</div><!-- End maintext -->
+
+</div><!-- End main body -->
+</body>
+</html>

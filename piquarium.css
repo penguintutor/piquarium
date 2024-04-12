@@ -1,0 +1,10 @@
+body {
+    background-image: url('images/background2.jpg');
+    background-size: cover;
+}
+
+p {
+    font-size: 130%;
+    font-weight: bold;
+    font-family: sans-serif;
+}

@@ -4,8 +4,7 @@
 // must be smallest to largest
 feedTimes = [7, 16]
 
-//timeoutWait = 60000
-timeoutWait = 10000;
+timeoutWait = 100000;
 
 // Start with -1 (index)
 // Next page will be 0
